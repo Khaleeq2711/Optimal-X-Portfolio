@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form .email {
+  width: 70%;
+  margin: auto;
+  height: 40px;
+  font-size: larger;
+  border-radius: 40px;
+  padding-inline: 30px;
+  border: 1px solid rgb(162, 162, 162);
+  margin-bottom: 3%;
+}
+.phone {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(130, 130, 130);
+  border: 1px solid rgb(162, 162, 162);
+  height: 40px;
+  padding-left: 2%;
+  margin-bottom: 3%;
+  font-size: larger;
+  border-radius: 40px;
+}
+.phone input {
+  height: 40px;
+  border: 1px solid rgb(162, 162, 162);
+  font-size: larger;
+  border-radius: 40px;
+  padding-inline: 34px;
+}
+@media (max-width: 1000px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .email {
+    width: 80%;
+    margin: 0;
+    height: 30px;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    padding-inline: 20px;
+    padding-block: 4px;
+    font-size: medium;
+  }
+  .phone {
+    height: 30px;
+    width: 80%;
+    margin: 0;
+    font-size: medium;
+  }
+  .phone input {
+    height: 30px;
+    padding-inline: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+.main {
+  width: 95%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+.left_div {
+  background-color: transparent;
+  height: 60px;
+  align-self: center;
+  margin-right: 2%;
+  color: Yellow;
+  border: none;
+  border-top: 1.6px solid yellow;
+  border-bottom: 1.6px solid yellow;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.right_div {
+  background-color: transparent;
+  height: 60px;
+  align-self: center;
+  margin-left: 2%;
+  color: Yellow;
+  border: none;
+  border-top: 1.6px solid yellow;
+  border-bottom: 1.6px solid yellow;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.left_div:hover {
+  background-color: rgba(0, 0, 0, 0.448);
+}
+.left_div:disabled {
+  background-color: #525252a1 !important;
+  color: rgb(128, 128, 75) !important;
+  border: none;
+  border-top: 1.6px solid rgb(156, 156, 57);
+  border-bottom: 1.6px solid rgb(156, 156, 57);
+}
+.right_div:hover {
+  background-color: rgba(0, 0, 0, 0.448);
+}
+.right_div:disabled {
+  background-color: #525252 !important;
+  color: rgb(128, 128, 75) !important;
+  border: 1.6px solid rgb(156, 156, 57) !important;
+}
+.yellow {
+  border-left: 4px solid yellow;
+  padding-left: 10px;
+}
+@media (max-width: 700px) {
+  .main {
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .actions button {
+    width: 50px;
+    height: 50px;
+  }
+}

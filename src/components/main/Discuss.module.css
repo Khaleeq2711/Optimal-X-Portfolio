@@ -1,0 +1,129 @@
+.main {
+  /* background-color: black; */
+  height: 500px;
+  text-align: center;
+  vertical-align: middle;
+  /* border: 1px solid rgb(113, 113, 113); */
+}
+.inner {
+  background-color: rgba(255, 255, 255, 0.123);
+  color: white;
+  height: 300px;
+  width: 85%;
+  margin: auto auto;
+  border-bottom-right-radius: 350px;
+  border-top-left-radius: 350px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-top: 10px solid rgb(205, 205, 205);
+}
+.inner2 {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.inner2 h1 {
+  font-size: 220%;
+  margin-bottom: 20px;
+}
+.inner2 p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.form input {
+  vertical-align: middle;
+  border: 1px solid #ffa800;
+  width: 35%;
+  padding-block: 7px;
+  padding-inline: 15px;
+  margin-right: 10%;
+  padding-left: 2%;
+  font-size: larger;
+  border-radius: 40px;
+}
+.form button {
+  vertical-align: middle;
+  padding-inline: 30px;
+  padding-block: 7px;
+  background-color: rgba(52, 52, 52, 0.603);
+  border: 2px solid #ffa800;
+  color: yellow;
+  right: 0;
+  font-size: larger;
+  border-radius: 40px;
+}
+.sendBtn:hover,
+.sendBtn:active {
+  background-color: black !important;
+  border:1px solid #ffa800;
+  margin: 0.5px !important;
+  margin-top: 1px !important;
+  color: white;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin: auto;
+  margin-top: 60px;
+}
+.btnTop {
+  background-color: transparent;
+  border: 2px solid #ffa800;
+  color: yellow;
+  font-size: large;
+  border-radius: 40px;
+  padding-inline: 30px;
+  padding-block: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnTop:hover {
+  background-color: black;
+  border: 1px solid #ffa800;
+  color: white;
+}
+
+@media (max-width: 950px) {
+  .inner {
+    height: 350px;
+    width: 95%;
+    margin: auto auto;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .inner2 p {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .actions {
+    margin-top: 87px;
+  }
+  .main {
+    height: 450px;
+  }
+  .form input {
+    width: 50%;
+    /* margin-left: 10px; */
+    padding-block: 4px;
+    padding-inline: 15px;
+  }
+  .form button {
+    padding-inline: 25px;
+    padding-block: 4px;
+    font-size: large;
+  }
+}
+
+@media (max-width: 550px) {
+  .btnTop {
+    font-size: medium;
+    padding-inline: 25px;
+    padding-block: 6px;
+    border-radius: 35px;
+  }
+}

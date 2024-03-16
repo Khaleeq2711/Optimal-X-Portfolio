@@ -1,0 +1,27 @@
+.card {
+  text-align: left;
+  border: 2px solid white;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  border-radius: 10px;
+  min-height: 250px;
+  /* min-width: 397px !important;
+  min-height:245px !important; */
+}
+.heading:hover,
+.heading:active {
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .card {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    min-height: 200px;
+
+  }
+}
+/* @media (max-width:500px) {
+  .card {}
+} */

@@ -1,0 +1,115 @@
+.about {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+.heading1 {
+  font-size: 40px;
+  font-family: "Jacques Francois";
+  font-display: swap;
+  font-weight: 400;
+  color: #ffa800;
+  animation-duration: 1s;
+}
+.text {
+  padding-right: 5%;
+  text-align: left;
+  margin-top: 3%;
+}
+.heading {
+  font-size: 700;
+  color: white !important;
+  border-left: 5px solid #ffa800;
+  padding-left: 10px;
+  font-family: "Agrandir";
+  font-display: swap;
+}
+
+.contact_btn {
+  margin-top: 4%;
+  margin-bottom: 10%;
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
+
+  font-size: large;
+  border-radius: 40px;
+  padding-inline: 34px;
+  padding-block: 4px;
+}
+.contact_btn:hover,
+.contact_btn:active {
+  background-color: black;
+  color: yellow;
+}
+.back_btn {
+  margin-top: 8%;
+  margin-bottom: 10%;
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  font-size: large;
+  border-radius: 40px;
+  padding-inline: 34px;
+  padding-block: 4px;
+}
+.back_btn:hover,
+.back_btn:active {
+  background-color: black;
+}
+.blackBox {
+  width: 100%;
+  margin-top: 4%;
+  background-color: rgba(255, 255, 255, 0.123);
+  padding: 5%;
+  border: 1px solid #ffa800;
+  border-radius: 10px;
+}
+.heading_blackBox {
+  font-size: 700;
+  color: white !important;
+  padding-left: 10px;
+  font-family: "Agrandir";
+  font-display: swap;
+  margin-bottom: 8%;
+}
+.blackBox_item {
+  font-size: 600;
+  color: white !important;
+  border-left: 5px solid #ffa800;
+  padding-left: 10px;
+  margin-bottom: 2% !important;
+}
+.blackBox_item div {
+  color: #ffa800;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-display: swap;
+}
+
+.map {
+  width: 70%;
+  height: 450px;
+  border: 3px solid #ffa800;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(255, 255, 255, 0.336) 0px 30px 60px -30px,
+    rgba(54, 151, 247, 0.603) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+/* @media (max-width: 874px) {
+  .image {
+    width: 100%;
+    margin-bottom: 52px !important;
+  }
+  .heading {
+    margin-left: 1%;
+    margin-top: -20%;
+  }
+  .text {
+    margin-left: 5%;
+  }
+} */

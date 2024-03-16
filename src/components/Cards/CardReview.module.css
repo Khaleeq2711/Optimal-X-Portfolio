@@ -1,0 +1,26 @@
+.card {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.123);
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 2%;
+  min-height: 280px;
+  max-height: 280px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 1%;
+  max-width: 320px;
+  min-width: 320px;
+}
+.header {
+  width: max-content;
+  color: white;
+  margin-top: 0px !important;
+}
+@media (max-width: 400px) {
+  .card {
+    max-width: 270px;
+    min-width: 270px;
+  }
+}

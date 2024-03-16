@@ -1,0 +1,46 @@
+.branding {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.heading1 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: "Jacques Francois";
+  font-display: swap;
+  font-weight: 400;
+  color: #ffa800;
+}
+.text {
+  padding-right: 5%;
+  text-align: left;
+  margin-top: 3%;
+}
+.heading {
+  font-size: 700;
+  color: white !important;
+  border-left: 5px solid #ffa800;
+  padding-left: 10px;
+  font-family: "Agrandir";
+  font-display: swap;
+}
+.contact_btn {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
+
+  font-size: large;
+  border-radius: 40px;
+  padding-inline: 34px;
+  padding-block: 4px;
+}
+.contact_btn:hover {
+  background-color: black;
+  border: 1px solid yellow;
+  margin-top: 81px;
+  margin-bottom: 81px;
+  color: white;
+}

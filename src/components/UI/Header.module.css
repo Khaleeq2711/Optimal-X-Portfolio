@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.497);
+  padding-bottom: 1%;
+  padding-top: 1%;
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: x-large;
+  font-family: "Jacques Francois";
+}
+.btns {
+  font-size: medium;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.btns button {
+  background-color: transparent;
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  padding: 1px 20px;
+}

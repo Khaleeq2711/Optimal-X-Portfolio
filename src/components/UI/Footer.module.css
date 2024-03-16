@@ -1,0 +1,44 @@
+.footer {
+  padding-top: 4%;
+  background: rgb(234, 2, 2);
+  background: linear-gradient(
+    90deg,
+    rgb(128, 6, 6) 0%,
+    rgb(0, 0, 0) 49%,
+    rgba(0, 0, 0, 1) 40%,
+    rgb(141, 3, 118) 100%
+  );
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0.8em;
+}
+
+.form input {
+  border: none;
+  width: 50%;
+  height: 30px;
+  padding-left: 2%;
+  margin-top: 4%;
+  font-size: medium;
+  border-radius: 40px;
+}
+
+.map {
+  width: 100%;
+  height: 80px;
+  border: 3px solid #ffa800;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(255, 255, 255, 0.336) 0px 30px 60px -30px,
+    rgba(54, 151, 247, 0.603) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+.yellow {
+  border-left: 4px solid yellow;
+  padding-left: 10px;
+}

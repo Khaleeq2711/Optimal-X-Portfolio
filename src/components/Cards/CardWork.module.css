@@ -1,0 +1,43 @@
+.card {
+  text-align: left;
+  border: 2px solid white;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  border-radius: 4px;
+  min-height: 150px;
+  max-height: auto;
+  margin-bottom: 3%;
+}
+.bookBtn {
+    background-color: black !important;
+    border: 1px solid #ffa800 !important;
+    color: yellow !important;
+    /* right: 0 !important; */
+    /* padding: 0 2%; */
+    border-radius: 40px !important;
+    padding-inline: 30px !important;
+    padding-block: 6px !important;
+    width: auto !important;
+    margin: auto !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+}
+.bookBtn:hover,
+.bookBtn:active{
+  background-color: rgba(255, 255, 255, 0.123) !important;
+}
+.alert {
+  position: fixed;
+  z-index: 1;
+}
+
+
+@media (min-width: 700px) {
+  .card {
+    min-width: 90%;
+    margin: auto;
+    padding: 1%;
+  }
+}

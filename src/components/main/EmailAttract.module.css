@@ -1,0 +1,143 @@
+.main {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.form .email {
+  width: 70%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.282);
+  border: none;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  font-size: larger;
+  border-radius: 40px;
+  padding-inline: 34px;
+  padding-block: 7px;
+  color: white;
+}
+.form .email::placeholder {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: medium;
+}
+.phone {
+  background-color: rgba(255, 255, 255, 0.282);
+  min-height: 60px;
+  padding-left: 2%;
+  width: 70%;
+  margin-bottom: 3%;
+  font-size: larger;
+  border-radius: 40px;
+  color: white;
+}
+.phone input {
+  background-color: transparent;
+  height: 60px;
+  border: none;
+  font-size: larger;
+  border-radius: 40px;
+  padding-inline: 20px;
+  padding-block: 7px !important;
+  color: white;
+}
+.phone input::placeholder {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: medium;
+}
+
+.button {
+  height: 60px;
+  background-color: #ffa800;
+  border: 2px solid #ffa800;
+  right: 0;
+  padding: 0 35px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0);
+  color: white;
+  border: 1px solid #ffa800;
+}
+.second {
+  font-size: large;
+  color: rgba(255, 255, 255, 0.859);
+  width: fit-content;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    width: auto;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .form .email {
+    width: 50%;
+    height: 50px;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    padding-inline: 20px;
+    padding-block: 4px;
+  }
+  .phone {
+    min-height: 50px;
+    width: 50%;
+    padding-inline: 10px;
+  }
+  .phone input {
+    height: 50px;
+    border-radius: 40px;
+    padding-inline: 10px;
+    padding-block: 7px !important;
+  }
+
+  .button {
+    width: max-content;
+    height: auto;
+    margin-top: 3%;
+    margin-left: -30px;
+    border-radius: 40px;
+    padding-inline: 30px;
+    padding-block: 8px;
+    font-size: large;
+  }
+}
+@media (max-width: 750px) {
+  .form .email {
+    width: 60%;
+    height: 50px;
+  }
+  .phone {
+    min-height: 50px;
+    width: 60%;
+  }
+  .phone input {
+    height: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .form .email {
+    width: 90%;
+    height: 40px;
+  }
+  .phone {
+    min-height: 40px;
+    width: 90%;
+  }
+  .phone input {
+    height: 40px;
+  }
+}

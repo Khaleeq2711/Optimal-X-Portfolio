@@ -1,0 +1,60 @@
+.web {
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+}
+.videoUI {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height:500px;
+  top: 20;
+  left: 0;
+  z-index: -1;
+  opacity: 40%;
+}
+.heading1 {
+  padding-top: 10%;
+  padding-left: 2%;
+  font-size: 40px;
+  font-family: "Jacques Francois";
+  font-display: swap;
+  font-weight: 400;
+  color: #ffa800;
+}
+.text {
+  padding-right: 5%;
+  text-align: left;
+  margin-top: 3%;
+}
+.heading {
+  font-size: 700;
+  color: white !important;
+  padding-left: 10px;
+  font-family: "Agrandir";
+  font-display: swap;
+}
+.contact_btn {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: yellow;
+  color: black;
+  border: 2px solid yellow;
+
+  font-size: large;
+  border-radius: 40px;
+  padding-inline: 34px;
+  padding-block: 4px;
+}
+.contact_btn:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid yellow;
+  margin-top: 81px;
+  margin-bottom: 81px;
+}
+
+.yellow {
+  border-left: 5px solid yellow;
+  padding-left: 10px;
+}
